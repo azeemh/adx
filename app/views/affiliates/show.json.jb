@@ -1,0 +1,7 @@
+{
+  id: @affiliate.id,
+  name: @affiliate.name,
+  affid: @affiliate.affid,
+  created_at: @affiliate.created_at,
+  updated_at: @affiliate.updated_at
+}

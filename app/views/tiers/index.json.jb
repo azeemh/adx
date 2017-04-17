@@ -1,0 +1,8 @@
+@tiers.map do |tier|
+  {
+    id: tier.id,
+    title: tier.title,
+    vertical_name: tier.vertical_name,
+    url: tier_url(tier, format: :json)
+  }
+end

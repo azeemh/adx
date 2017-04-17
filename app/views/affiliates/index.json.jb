@@ -1,0 +1,8 @@
+@affiliates.map do |affiliate|
+  {
+    id: affiliate.id,
+    name: affiliate.name,
+    affid: affiliate.affid,
+    url: affiliate_url(affiliate, format: :json)
+  }
+end

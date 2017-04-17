@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Adx</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <nav id="navbar">
+    <ul>
+      <li><a href="/tiers">Tiers</a></li>
+      <li><a href="/offers">Offers</a></li>
+      <li><a href="/affiliates">Affiliates</a></li>
+    </ul>
+  </nav>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>

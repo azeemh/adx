@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  link_to_image: MyString
+  is_capped: false
+  EPC: 9.99
+  lp_offer_name: MyString
+  rank: 1
+
+two:
+  title: MyString
+  link_to_image: MyString
+  is_capped: false
+  EPC: 9.99
+  lp_offer_name: MyString
+  rank: 1

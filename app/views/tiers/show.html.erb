@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @tier.title %>
+</p>
+
+<p>
+  <strong>Vertical name:</strong>
+  <%= @tier.vertical_name %>
+</p>
+
+<%= link_to 'Edit', edit_tier_path(@tier) %> |
+<%= link_to 'Back', tiers_path %>

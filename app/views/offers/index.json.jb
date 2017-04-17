@@ -1,0 +1,12 @@
+@offers.map do |offer|
+  {
+    id: offer.id,
+    title: offer.title,
+    link_to_image: offer.link_to_image,
+    is_capped: offer.is_capped,
+    EPC: offer.EPC,
+    lp_offer_name: offer.lp_offer_name,
+    rank: offer.rank,
+    url: offer_url(offer, format: :json)
+  }
+end

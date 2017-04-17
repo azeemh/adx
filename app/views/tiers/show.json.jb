@@ -1,0 +1,7 @@
+{
+  id: @tier.id,
+  title: @tier.title,
+  vertical_name: @tier.vertical_name,
+  created_at: @tier.created_at,
+  updated_at: @tier.updated_at
+}
