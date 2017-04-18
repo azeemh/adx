@@ -65,6 +65,8 @@ GEM
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    lockup (1.4)
+      rails (>= 3, < 6)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     mail (2.6.4)
@@ -158,6 +160,7 @@ DEPENDENCIES
   jb
   jquery-rails
   listen (~> 3.0.5)
+  lockup
   pg (~> 0.18)
   puma (~> 3.0)
   rails (~> 5.0.2)
