@@ -21,8 +21,8 @@
     <%= f.text_field :affid %>
   </div>
 
+  <h3>Choose A Tier</h3>
   <div class=“field”>
-    <%= f.label :tier %>
     <%= f.collection_check_boxes :tier, Tier.all, :id, :title %>
   </div>
 
